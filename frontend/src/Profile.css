@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+h3 {
+  margin: 10px 0;
+}
+
+h6 {
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+.card-container {
+  position: relative;
+  top: 40px;
+  left: 18%;
+  display: flex;
+  margin: 50px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  color: #B3B8CD;
+  width: 800px;
+  text-align: center;
+}
+
+.card-container .image-section {
+  width: 250px;
+  background-color: #05575d;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.card-container .round {
+  border: 1px solid #03BFCB;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+button.primary {
+  background-color: #03BFCB;
+  border: 1px solid #03BFCB;
+  border-radius: 3px;
+  color: #231E39;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  padding: 10px 25px;
+}
+
+button.primary.ghost {
+  background-color: transparent;
+  color: #02899C;
+}
+
+.info {
+  display: flex;
+  width: 550px;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #03BFCB;
+  height: 150px;
+}
+
+.info .card-label, .card-info {
+  color: rgb(255, 255, 255);
+  display: inline;
+}
+
+.info ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.info ul li {
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 7px 7px 0;
+  padding: 7px;
+}
+
+/* .info .post-section{
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+} */
