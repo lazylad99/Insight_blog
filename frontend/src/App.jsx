@@ -1,7 +1,7 @@
 import './App.css'
 
 //Importing Header
-import Router from './router/Router'
+import Router from './Routes'
 
 
 export default function App() {
